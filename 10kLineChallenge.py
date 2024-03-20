@@ -266,13 +266,42 @@
 # print('\nOrignal:', orignal)
 # print('printed:', printed)
 
-def make_pizza(size, *toppings):
-    print('\nMaking a ' + size + 'pizza.')
-    print('Toppings:')
-    for topping in toppings:
-        print('- ' + topping)
- 
+# def make_pizza(size, *toppings):
+#     print('\nMaking a ' + size + 'pizza.')
+#     print('Toppings:')
+#     for topping in toppings:
+#         print('- ' + topping)
 
-make_pizza('small ', 'pepparoni')
-make_pizza('large ', 'bacon bits', 'pineapple')
-make_pizza('medium ', 'mushroom', 'peppers', 'onions', 'extra cheese')
+
+# make_pizza('small ', 'pepparoni')
+# make_pizza('large ', 'bacon bits', 'pineapple')
+# make_pizza('medium ', 'mushroom', 'peppers', 'onions', 'extra cheese')
+
+# #collection of arbitrary number of keywords arguments
+# def build_profile(first, last, **user_info):
+#     profile = {'first': first, 'last': last}
+
+#     for key, value in user_info.items():
+#         profile[key] = value
+#     return profile
+
+# user_0 = build_profile('kamal', 'pandi', location='madurai', age='24')
+# print(user_0)
+
+
+# #storing a function in a modeuls, importing entire module
+# import pizza
+
+# # print(pizza.make_pizza('m', 'pepproni', 'bacon'))
+
+# from pizza import make_pizza
+
+# print(make_pizza('large', 'sausage', 'chicken', 'barb'))
+
+# import pizza as p
+
+# p.make_pizza('m','pepporoni')
+
+# from pizza import make_pizza as mp
+
+# mp('l','l1','l2','l3')
